@@ -1,0 +1,48 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.todoContainer h1 {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.todoListsCountainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todoListsCountainer li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todoListsCountainer li p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.todoListsCountainer li p.completed {
+    text-decoration: none;
+    color: #28a745;
+}
